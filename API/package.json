@@ -1,0 +1,30 @@
+{
+  "name": "cafecodeapi",
+  "version": "1.0.0",
+  "description": "cafeCodeAPI",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CafeCodeProject/cafeCodeAPI.git"
+  },
+  "author": "Deniz Erdem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CafeCodeProject/cafeCodeAPI/issues"
+  },
+  "homepage": "https://github.com/CafeCodeProject/cafeCodeAPI#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
